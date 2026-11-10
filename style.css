@@ -75,3 +75,73 @@ html{scroll-padding-top:105px}body{background:var(--bg);background-image:radial-
   .product-visual img{width:100%;height:auto}
   .showcase .section-heading h2{font-size:clamp(1.8rem,7.4vw,2.4rem)}
 }
+
+
+/* FANTASY ATMOSPHERE BACKGROUND V4 */
+/* Low-overhead layered magic light and decorative stars. No third-party image downloads. */
+body{
+ background-color:#080e18;
+ background-image:
+ radial-gradient(ellipse 65% 42% at 7% 15%,rgba(10,101,136,.16),transparent 76%),
+ radial-gradient(ellipse 46% 35% at 95% 30%,rgba(137,73,157,.13),transparent 82%),
+ radial-gradient(ellipse 65% 45% at 48% 81%,rgba(24,107,101,.12),transparent 82%),
+ linear-gradient(180deg,#09121c,#080e18 52%,#0b101c);
+}
+.hero{
+ background:
+ radial-gradient(ellipse 58% 80% at 75% 38%,rgba(218,149,80,.19),transparent 73%),
+ radial-gradient(ellipse 60% 70% at 12% 42%,rgba(37,160,184,.22),transparent 75%),
+ radial-gradient(ellipse 28% 30% at 46% 12%,rgba(121,72,158,.16),transparent 80%),
+ linear-gradient(135deg,#0b1e2a 0%,#101522 56%,#10121e 100%);
+}
+.hero::before{
+ opacity:.35;
+ background-image:
+ radial-gradient(circle,rgba(247,214,154,.68) .65px,transparent 1.5px),
+ radial-gradient(circle,rgba(133,222,229,.55) .8px,transparent 1.6px);
+ background-size:101px 123px,171px 149px;
+ background-position:0 0,58px 45px;
+ mask-image:linear-gradient(90deg,rgba(0,0,0,.6),black 65%,rgba(0,0,0,.5));
+}
+.hero::after{
+ content:"";pointer-events:none;position:absolute;
+ width:min(55vw,810px);height:min(55vw,810px);
+ right:-18%;top:-44%;
+ border-radius:50%;
+ border:1px solid rgba(232,188,120,.1);
+ box-shadow:0 0 0 38px rgba(232,188,120,.019),0 0 0 91px rgba(134,204,208,.02),inset 0 0 95px rgba(240,198,132,.035);
+ transform:rotate(-21deg);
+}
+.hero-grid{position:relative;z-index:1}
+.products{
+ background:
+ radial-gradient(ellipse 60% 60% at 6% 20%,rgba(25,113,132,.13),transparent 72%),
+ radial-gradient(ellipse 57% 65% at 95% 88%,rgba(151,92,58,.11),transparent 78%),
+ linear-gradient(180deg,#0e1926,#121b2a 52%,#101927);
+}
+.showcase{
+ background:
+ radial-gradient(ellipse 65% 80% at 50% 46%,rgba(60,145,138,.16),transparent 75%),
+ radial-gradient(ellipse 30% 60% at 88% 12%,rgba(153,87,164,.1),transparent 85%),
+ linear-gradient(180deg,#0b1421,#101724);
+}
+.utility{
+ background:
+ radial-gradient(ellipse at 88% 20%,rgba(207,158,88,.11),transparent 48%),
+ linear-gradient(130deg,#101b28,#0d1723 56%,#111928);
+}
+.faq{
+ background:
+ radial-gradient(ellipse at 4% 85%,rgba(39,122,151,.13),transparent 48%),
+ linear-gradient(180deg,#111c2a,#0e1724);
+}
+.bottom-cta{
+ background:
+ radial-gradient(ellipse 70% 160% at 84% 40%,rgba(238,183,110,.18),transparent 66%),
+ radial-gradient(ellipse 60% 90% at 12% 90%,rgba(40,128,150,.13),transparent 75%),
+ linear-gradient(115deg,#1a242d,#232330 65%,#292322);
+}
+@media(max-width:800px){
+ .hero::after{width:490px;height:490px;right:-390px;top:-190px;opacity:.35}
+ .hero::before{opacity:.23}
+}

@@ -151,7 +151,7 @@ body{
 .hero{
  background-image:
  linear-gradient(90deg,rgba(6,13,23,.95) 0%,rgba(7,15,26,.85) 31%,rgba(8,15,28,.46) 67%,rgba(6,12,23,.22) 100%),
- url("assets/fantasy-nightscape.svg");
+ url("assets/fantasy-castle-hero.jpg");
  background-size:cover;
  background-position:center center;
  background-repeat:no-repeat;
@@ -163,22 +163,22 @@ body{
 .products{
  background-image:
  linear-gradient(180deg,rgba(7,15,27,.9),rgba(14,22,37,.95)),
- url("assets/fantasy-nightscape.svg");
+ url("assets/fantasy-castle-hero.jpg");
  background-size:cover;
  background-position:70% 55%;
 }
 .showcase{
  background-image:
  linear-gradient(180deg,rgba(8,15,25,.84),rgba(9,18,29,.95)),
- url("assets/fantasy-nightscape.svg");
+ url("assets/fantasy-castle-hero.jpg");
  background-size:cover;
  background-position:70% 67%;
 }
 @media(max-width:1100px){
- .hero{min-height:0;background-position:69% center;background-image:linear-gradient(90deg,rgba(5,12,22,.94),rgba(5,12,22,.71)),url("assets/fantasy-nightscape.svg")}
+ .hero{min-height:0;background-position:69% center;background-image:linear-gradient(90deg,rgba(5,12,22,.94),rgba(5,12,22,.71)),url("assets/fantasy-castle-hero.jpg")}
 }
 @media(max-width:800px){
- .hero{background-position:72% 20%;background-image:linear-gradient(180deg,rgba(5,12,22,.79),rgba(5,12,22,.95)),url("assets/fantasy-nightscape.svg")}
+ .hero{background-position:72% 20%;background-image:linear-gradient(180deg,rgba(5,12,22,.79),rgba(5,12,22,.95)),url("assets/fantasy-castle-hero.jpg")}
  .products{background-position:74% center}
  .showcase{background-position:77% center}
 }

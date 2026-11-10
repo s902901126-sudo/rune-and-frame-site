@@ -4,7 +4,7 @@
 <radialGradient id="aura"><stop stop-color="#75e4ff" stop-opacity=".72"/><stop offset=".28" stop-color="#5c92cb" stop-opacity=".3"/><stop offset="1" stop-color="#4873ae" stop-opacity="0"/></radialGradient>
 <radialGradient id="gold"><stop stop-color="#f8cf8b" stop-opacity=".95"/><stop offset=".3" stop-color="#f0bb83" stop-opacity=".28"/><stop offset="1" stop-color="#f4b85a" stop-opacity="0"/></radialGradient>
 <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#14263c"/><stop offset="1" stop-color="#090f1a"/></linearGradient>
-<linearGradient id="veil"><stop stop-color="#08121f" stop-opacity=".96"/><stop offset=".55" stop-color="#08121f" stop-opacity=".68"/><stop offset="1" stop-color="#08121f" stop-opacity=".12"/></linearGradient>
+<linearGradient id="veil"><stop stop-color="#08121f" stop-opacity=".75"/><stop offset=".55" stop-color="#08121f" stop-opacity=".34"/><stop offset="1" stop-color="#08121f" stop-opacity=".02"/></linearGradient>
 <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
 <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
 </defs>

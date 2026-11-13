@@ -182,3 +182,27 @@ body{
  .products{background-position:74% center}
  .showcase{background-position:77% center}
 }
+
+
+/* RUNE FRAME V7 LABGRID HOMEPAGE */
+.brand-logo{flex:none;display:block;width:48px;height:48px;object-fit:cover;border-radius:11px;border:1px solid rgba(235,191,117,.58);box-shadow:0 0 20px rgba(52,191,217,.18);background:#071421}
+.footer-brand{display:grid;grid-template-columns:52px minmax(0,1fr);gap:5px 13px;align-items:center}
+.footer-brand-logo{width:52px;height:52px;object-fit:cover;border-radius:12px;grid-row:span 2;border:1px solid rgba(235,191,117,.4)}
+.footer-brand p{grid-column:2;align-self:start;margin:0}
+.hero.hero-scifi{background-color:#071724!important;background-image:radial-gradient(ellipse 70% 95% at 82% 36%,rgba(15,177,200,.23),transparent 73%),radial-gradient(ellipse 45% 70% at 5% 90%,rgba(25,93,158,.20),transparent 76%),repeating-linear-gradient(0deg,transparent 0px,transparent 69px,rgba(119,215,226,.045) 70px),repeating-linear-gradient(90deg,transparent 0px,transparent 69px,rgba(119,215,226,.045) 70px),linear-gradient(115deg,#06121f 6%,#09253a 66%,#071a27)!important;background-size:auto!important;background-position:center!important}
+.hero.hero-scifi::before,.hero.hero-scifi::after{display:none!important}
+.hero.hero-scifi .hero-kicker{color:#97eaf1;border-color:rgba(92,215,227,.34);background:rgba(15,99,124,.22)}
+.hero.hero-scifi h1 span{background:linear-gradient(110deg,#c3fcff,#81dce9 55%,#78bde2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero.hero-scifi .hero-copy>p strong{color:#e0f9fc}
+.hero.hero-scifi .hero-numbers strong{color:#92eaf1}
+.hero.hero-scifi .btn.primary{background:linear-gradient(120deg,#a3ecf1,#6ccbdc);color:#071521;box-shadow:0 10px 26px rgba(42,187,218,.17)}
+.hero.hero-scifi .btn.primary:hover{background:linear-gradient(120deg,#c3f9ff,#8cdeec)}
+.hero.hero-scifi .hero-art{min-height:0;background:#061a28;border-color:rgba(109,217,224,.61);box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 4px rgba(91,208,221,.075)}
+.hero.hero-scifi .hero-art img{display:block;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important}
+.hero.hero-scifi .hero-art-caption{background:linear-gradient(180deg,rgba(6,13,21,.08),rgba(5,17,26,.95))}
+.hero.hero-scifi .hero-art-caption span{color:#8de7f0}
+.labgrid{background:radial-gradient(ellipse at 78% 20%,rgba(45,166,197,.18),transparent 57%),linear-gradient(180deg,#0b1d2c,#0b1724);border-bottom:1px solid rgba(92,212,231,.27)}
+.labgrid .eyebrow{color:#8feaf2}.labgrid .labgrid-art{border-color:rgba(113,232,240,.47)}
+@media(max-width:1100px){.hero.hero-scifi{background-image:radial-gradient(ellipse at 65% 25%,rgba(23,132,161,.25),transparent 75%),repeating-linear-gradient(0deg,transparent 0px,transparent 69px,rgba(119,215,226,.04) 70px),linear-gradient(135deg,#081521,#0b2a3a)!important}}
+@media(max-width:800px){.brand-logo{width:42px;height:42px}.hero.hero-scifi{padding:50px 0 60px!important}.hero.hero-scifi .hero-grid{grid-template-columns:minmax(0,1fr)!important}.hero.hero-scifi h1{font-size:clamp(2.65rem,9vw,4rem)!important}.hero.hero-scifi .hero-art img{aspect-ratio:auto!important}}
+@media(max-width:480px){.brand-name{font-size:.89rem}.hero.hero-scifi h1{font-size:clamp(2.35rem,10vw,3.4rem)!important}.hero.hero-scifi .hero-numbers{gap:15px}}

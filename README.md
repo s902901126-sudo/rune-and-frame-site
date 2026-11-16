@@ -8,7 +8,7 @@ Official website repository for **RUNE & FRAME**, an independent game asset stud
 
 | Product | Contents | Links |
 | --- | --- | --- |
-| Dark Fantasy Magic & Alchemy Props | 100 animated world props, 728 native PNG frames, 200 GIF previews and 100 Godot 4 scenes | [Product](https://andy0327.itch.io/dark-fantasy-magic-alchemy-props) · [Free demo](https://andy0327.itch.io/dark-fantasy-magic-alchemy-props#demo) · [Specifications](https://s902901126-sudo.github.io/rune-and-frame-site/products/dark-fantasy-magic-alchemy.html) · [Video](https://www.youtube.com/watch?v=tUbl7zFExWA) |
+| Dark Fantasy Magic & Alchemy Props | 100 animated world props, 728 native PNG frames, 200 GIF previews and 100 Godot 4 scenes | [Product](https://andy0327.itch.io/dark-fantasy-magic-alchemy-props) · [Sale](https://itch.io/s/218341/dark-fantasy-magic-alchemy-props-50-launch-sale) · [Free demo](https://andy0327.itch.io/dark-fantasy-magic-alchemy-props#demo) · [Specifications](https://s902901126-sudo.github.io/rune-and-frame-site/products/dark-fantasy-magic-alchemy.html) · [Video](https://www.youtube.com/watch?v=tUbl7zFExWA) |
 | Dark Fantasy RPG UI Kit | 48 modular UI families, 519 SVG components, PNG exports and Godot 4 helper | [Product & free sample](https://andy0327.itch.io/dark-fantasy-rpg-ui-kit) · [Specifications](https://s902901126-sudo.github.io/rune-and-frame-site/products/dark-fantasy-ui.html) |
 | LABGRID-100 — Sci-Fi Biotech UI Kit | 80 icons, 20 UI designs, 111 modular SVG components, Godot 4 examples | [Product & free demo](https://andy0327.itch.io/sci-fi-biotech-ui-kit) · [Specifications](https://s902901126-sudo.github.io/rune-and-frame-site/products/sci-fi-biotech-ui.html) |
 | Fantasy RPG Icons | 120 unique icon designs, 480 PNG files in four sizes, PNG atlas and JSON metadata | [Product](https://andy0327.itch.io/fantasy-rpg-120-icons) · [Specifications](https://s902901126-sudo.github.io/rune-and-frame-site/products/fantasy-rpg-icons.html) |
@@ -16,7 +16,7 @@ Official website repository for **RUNE & FRAME**, an independent game asset stud
 
 ### Try before you buy
 
-The **Dark Fantasy RPG UI Kit** and **LABGRID-100** have free downloadable examples on their itch.io listings. Follow the product links above to inspect each demo's contents, format, and license.
+**Dark Fantasy Magic & Alchemy Props**, the **Dark Fantasy RPG UI Kit**, and **LABGRID-100** have free downloadable examples on their itch.io listings. Follow the product links above to inspect each demo's contents, format, and license.
 
 These are **art and interface asset packs**, not complete games. Godot support and engine compatibility vary by product; read each listing's current specifications and limitations.
 

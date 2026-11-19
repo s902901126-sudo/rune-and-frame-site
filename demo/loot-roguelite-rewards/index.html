@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-<meta name="description" content="Play the free LR05 Reward Selection Godot 4 UI demo in your browser. Choose one reward and try native interactive states; shop the full 20 UI collection on itch.io.">
+		<meta name="description" content="Play LR15 Four Reward Draft, a real interactive Godot 4 demo from RUNE & FRAME Loot & Roguelite Rewards. Compare four rewards, view details and simulate a claim.">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<title>RUNE & FRAME | LR05 Interactive Godot 4 Demo</title>
+		<link rel="icon" type="image/png" href="index.png"/>
+        <title>LR15 Four Reward Draft | Interactive Godot 4 Demo | RUNE &amp; FRAME</title>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -90,33 +91,18 @@ body {
 	text-align: center;
 	z-index: 1;
 }
-		#lr-web-brand{position:fixed;z-index:600;top:12px;left:14px;max-width:42vw;padding:9px 13px;color:#f2dbc1;background:rgba(13,12,22,.90);border:1px solid rgba(221,174,111,.44);border-radius:9px;font:600 12px/1.3 system-ui, sans-serif;letter-spacing:.025em;pointer-events:none}
-#lr-web-buy{position:fixed;z-index:601;top:12px;right:14px;display:flex;gap:8px;align-items:center}
-#lr-web-buy a{padding:11px 15px;background:#e4b77a;border:1px solid #f0d1a8;border-radius:9px;color:#21151b;text-decoration:none;font:700 13px/1.25 system-ui,sans-serif;box-shadow:0 6px 20px #0006}
-#lr-web-buy a:focus-visible{outline:3px solid #fff;outline-offset:3px}
-#lr-web-buy a:hover{background:#ffdb9e}
-#lr-web-buy .lr-web-back{background:rgba(15,13,24,.93);border-color:rgba(221,174,111,.55);color:#f5e6d6}
-@media(max-width:690px){#lr-web-brand{font-size:10px;padding:7px;top:7px;left:7px;max-width:35vw}#lr-web-buy{top:7px;right:7px;gap:4px}#lr-web-buy a{font-size:11px;padding:7px 9px}#lr-web-buy .lr-web-back{display:none}}
-/* Keep LR05's native 16:9 Godot scene completely visible at desktop and smaller viewports.
-   Policy 1 retains its 1280x720 drawing buffer; CSS only scales the presentation. */
-html,body{width:100%;height:100%;overflow:hidden}
-#canvas{
- display:block!important;
- position:fixed!important;
- left:50%!important;top:50%!important;
- transform:translate(-50%,-50%)!important;
- width:min(96vw,156.444445vh)!important;
- width:min(96vw,156.444445dvh)!important;
- height:auto!important;max-height:88dvh!important;
- object-fit:contain!important;
-}
+		html,body{height:100%;width:100%;overflow:hidden}
+#canvas{display:block!important;position:absolute!important;left:50%!important;top:50%!important;transform:translate(-50%,-50%)!important;width:min(96vw,156.444445vh)!important;width:min(96vw,156.444445dvh)!important;height:auto!important;max-height:88dvh!important;object-fit:contain!important}
+#preview-label{position:fixed;z-index:600;left:12px;top:10px;border:1px solid #bd965c;border-radius:7px;background:#16121cdd;color:#f4d5a9;padding:8px 11px;font:600 12px/1.3 system-ui,sans-serif;pointer-events:none}
+#preview-note{position:fixed;z-index:600;bottom:8px;left:50%;transform:translateX(-50%);white-space:nowrap;border-radius:5px;background:#16121cbd;color:#d8bfa3;padding:4px 9px;font:11px/1.3 system-ui,sans-serif;pointer-events:none}
+@media(max-width:650px){#preview-label{font-size:9px;padding:4px;left:4px;top:4px}#preview-note{font-size:8px;bottom:3px}}
 </style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
-<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
+		
 	</head>
 	<body>
-		<canvas id="canvas">
+		<div id="preview-label">RUNE &amp; FRAME · LR15 PLAYABLE DEMO</div>
+        <div id="preview-note">Free Godot 4 demo · Claim confirmation simulated · No inventory or save backend</div>
+        <canvas id="canvas">
 			Your browser does not support the canvas tag.
 		</canvas>
 
@@ -132,7 +118,7 @@ html,body{width:100%;height:100%;overflow:hidden}
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":13109892,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":2362980,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -232,12 +218,11 @@ const engine = new Engine(GODOT_CONFIG);
 			},
 		}).then(() => {
 			setStatusMode('hidden');
-			document.title = 'RUNE & FRAME | LR05 Interactive Godot 4 Demo';
+            document.title='RUNE & FRAME | LR15 Four Reward Draft - Playable Demo';
 		}, displayFailureNotice);
 	}
 }());
 		</script>
-	<div id="lr-web-brand" aria-label="Live Godot 4 demo">RUNE &amp; FRAME · LR05 DEMO</div>
-<nav id="lr-web-buy" aria-label="Shop the full asset pack"><a class="lr-web-back" href="../../products/loot-roguelite-rewards.html">Product details</a><a href="https://itch.io/s/220906/loot-roguelite-rewards-50-launch-sale" target="_blank" rel="noopener noreferrer" aria-label="View the full 20 UI kit launch sale on itch.io">Get the full 20-UI pack ↗</a></nav></body>
+	</body>
 </html>
 

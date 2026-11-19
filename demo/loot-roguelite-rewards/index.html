@@ -5,7 +5,7 @@
 		<meta name="description" content="Play LR15 Four Reward Draft, a real interactive Godot 4 demo from RUNE & FRAME Loot & Roguelite Rewards. Compare four rewards, view details and simulate a claim.">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 		<link rel="icon" type="image/png" href="index.png"/>
-        <title>LR15 Four Reward Draft | Interactive Godot 4 Demo | RUNE &amp; FRAME</title>
+        <title>Loot &amp; Roguelite Rewards | Playable Godot 4 UI Demo</title>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -100,7 +100,7 @@ body {
 		
 	</head>
 	<body>
-		<div id="preview-label">RUNE &amp; FRAME · LR15 PLAYABLE DEMO</div>
+		<div id="preview-label">RUNE &amp; FRAME · LR15 PLAYABLE GODOT 4 UI DEMO</div>
         <div id="preview-note">Free Godot 4 demo · Claim confirmation simulated · No inventory or save backend</div>
         <canvas id="canvas">
 			Your browser does not support the canvas tag.
@@ -218,7 +218,7 @@ const engine = new Engine(GODOT_CONFIG);
 			},
 		}).then(() => {
 			setStatusMode('hidden');
-            document.title='RUNE & FRAME | LR15 Four Reward Draft - Playable Demo';
+            document.title='Loot & Roguelite Rewards | Playable Godot 4 UI Demo';
 		}, displayFailureNotice);
 	}
 }());
